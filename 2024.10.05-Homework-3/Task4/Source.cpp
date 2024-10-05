@@ -10,7 +10,7 @@ int main(int argc, char* argv[])
 	int maxage = 0;
 	int n = -1;
 
-	for (int i = 0; i < k; i++)
+	for (int i = 0; i < k; ++i)
 	{
 		int age = 0;
 		int sex = 0;

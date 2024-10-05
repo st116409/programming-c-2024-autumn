@@ -6,7 +6,7 @@ int main(int argc, char* argv[])
 	int k = 0;
 	scanf_s("%d", &k);
 
-	for (int i = 0; i < k; i++)
+	for (int i = 0; i < k; ++i)
 	{
 		int m = 0;
 		int n = 0;

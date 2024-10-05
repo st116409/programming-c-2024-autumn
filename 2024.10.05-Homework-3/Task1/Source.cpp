@@ -10,17 +10,17 @@ int main(int argc, char* argv[])
 
 	scanf_s("%d", &coins);
 
-	for (int i = 0; i < coins; i++)
+	for (int i = 0; i < coins; ++i)
 	{
 		int x = 0;
 		scanf_s("%d", &x);
 		if (x == 1)
 		{
-			tails += 1;
+			++tails;
 		}
 		else
 		{
-			heads += 1;
+			++heads;
 		}
 	}
 	if (tails > heads)
