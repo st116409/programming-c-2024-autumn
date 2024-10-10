@@ -5,7 +5,7 @@ int main(int argc, char* argv[])
 {
 	int n = 0;
 	int max = 0;
-	int  row = 0;
+	int row = 0;
 
 	scanf_s("%d", &n);
 
