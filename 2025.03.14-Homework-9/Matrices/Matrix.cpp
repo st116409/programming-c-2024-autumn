@@ -2,7 +2,7 @@
 
 double** Matrix::createData(int rows, int cols)
 {
-	double** res = new double* [rows] { 0 };
+	double** res = new double* [rows] { nullptr };
 	for (int i = 0; i < rows; ++i)
 	{
 		res[i] = new double[cols] { 0 };

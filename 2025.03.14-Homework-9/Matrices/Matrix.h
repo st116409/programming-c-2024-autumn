@@ -1,4 +1,11 @@
-#pragma once
+#ifndef COUNT
+#define COUNT 0
+
+#else COUNT (COUNT + 1)
+#endif
+#if COUNT < 2
+
+#define MATRIX_H
 
 #include <iostream>
 
@@ -31,3 +38,5 @@ public:
 
 
 };
+
+#endif 
